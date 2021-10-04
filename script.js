@@ -22,6 +22,7 @@ function btnFunction(){
     
     localStorage.setItem('tenAM',textInput);
   }
+  
 tenInput.text(localStorage.getItem('tenAM'));
 
 
